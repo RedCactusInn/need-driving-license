@@ -1,6 +1,7 @@
 //
 // Created by Ludmila on 23.12.2020.
 //
+
 #include <iostream>
 #include "encoder.h"
 
@@ -17,7 +18,7 @@ void Encoder::threadUpdateCounter() {
         if (prewValue != digitalRead(pin)) {
             prewValue = digitalRead(pin);
             counter++;
-//            std::cout << "1" << endl ;
+//            cout << "1" << endl ;
         }
     }
 }
@@ -29,7 +30,7 @@ void Encoder::threadUpdateSpeed() {
         this_thread::sleep_for(chrono::microseconds(1000));
         speed = counter - initCounter;
         initCounter = counter;
-//        std::cout << "2" << endl ;
+//        cout << "2" << endl ;
     }
 }
 

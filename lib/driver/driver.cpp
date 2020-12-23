@@ -2,7 +2,6 @@
 // Created by pi on 07.12.2020.
 //
 
-
 #include "driver.h"
 
 using namespace std;

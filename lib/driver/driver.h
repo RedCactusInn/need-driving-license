@@ -2,8 +2,8 @@
 // Created by pi on 07.12.2020.
 //
 
-#ifndef CODE_NAME_PARTY_DRIVER_H
-#define CODE_NAME_PARTY_DRIVER_H
+#ifndef NEED_DRIVING_LICENSE_DRIVER_H
+#define NEED_DRIVING_LICENSE_DRIVER_H
 
 #include <wiringPi.h>
 #include <softPwm.h>
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //CODE_NAME_PARTY_DRIVER_H
+#endif //NEED_DRIVING_LICENSE_DRIVER_H
