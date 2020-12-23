@@ -15,9 +15,7 @@ class DriverManager {
 public:
     DriverManager();
 
-    ~DriverManager() {
-        cout << " ddfsdfgsdf" << endl;
-    }
+//    ~DriverManager();
 
     void move(int speedLeft, int speedRight);
 
